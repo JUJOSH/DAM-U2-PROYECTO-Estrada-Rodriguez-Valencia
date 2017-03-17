@@ -15,7 +15,6 @@ export class HomePage {
     
   }
    toggleRegistro(){
-    console.log('test');
     this.cont+=1;
     if(this.cont > 1){
       this.cont=0;
